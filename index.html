@@ -1,1 +1,163 @@
-Hello world!
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Faff:Naught builds small, sharp software for everyday frictions. The anti-faff laboratory behind The Peacemaker.">
+  <meta property="og:title" content="Faff:Naught - The anti-faff laboratory">
+  <meta property="og:description"
+    content="A small product studio building elegant software for annoying little frictions, starting with The Peacemaker.">
+  <meta property="og:type" content="website">
+  <title>Faff:Naught - The anti-faff laboratory</title>
+  <script>
+    (function () {
+      try {
+        var savedTheme = localStorage.getItem('faffNaughtTheme');
+        document.documentElement.dataset.theme = savedTheme === 'dark' ? 'dark' : 'light';
+      } catch (error) {
+        document.documentElement.dataset.theme = 'light';
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,800&family=Source+Sans+3:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <a class="brand" href="/" aria-label="Faff:Naught home">
+      <span class="brand-mark" aria-hidden="true">0</span>
+      <span>Faff:Naught</span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="#method">Method</a>
+      <a href="#peacemaker">The Peacemaker</a>
+      <a href="mailto:hello@faffnaught.com">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch to evening mode" aria-pressed="false">
+      <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 24 24">
+        <path d="M20.25 14.13A7.5 7.5 0 0 1 9.87 3.75 8.5 8.5 0 1 0 20.25 14.13Z" />
+      </svg>
+      <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2.75V5M12 19v2.25M4.22 4.22l1.6 1.6M18.18 18.18l1.6 1.6M2.75 12H5M19 12h2.25M4.22 19.78l1.6-1.6M18.18 5.82l1.6-1.6" />
+      </svg>
+    </button>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Faff, reduced to zero</p>
+        <h1 id="hero-title">The anti-faff laboratory.</h1>
+        <p class="hero-intro">
+          Faff:Naught builds small, sharp software for everyday frictions that cost far too much
+          attention.
+        </p>
+        <p class="hero-note">
+          Some problems are not grand. They are just persistent, socially awkward, or quietly
+          expensive. We notice them, give them better manners, and remove the drag.
+        </p>
+      </div>
+
+      <aside class="hero-panel" aria-label="Faff:Naught studio note">
+        <img class="seal" src="./assets/faff-naught-seal.svg" alt="">
+        <p class="panel-label">Studio note</p>
+        <p class="panel-statement">
+          The best software does not always ask for more attention. Sometimes it simply gives the
+          room back its rhythm.
+        </p>
+      </aside>
+    </section>
+
+    <section class="method-section" id="method" aria-labelledby="method-title">
+      <div class="section-kicker">Method</div>
+      <h2 id="method-title">A small protocol for needless friction.</h2>
+      <div class="method-grid">
+        <article>
+          <span class="method-number">01</span>
+          <h3>Observe</h3>
+          <p>Find the everyday drag people tolerate because it feels too small to deserve a fix.</p>
+        </article>
+        <article>
+          <span class="method-number">02</span>
+          <h3>Reframe</h3>
+          <p>Treat the irritation as a behavioural problem, not merely another chore to automate.</p>
+        </article>
+        <article>
+          <span class="method-number">03</span>
+          <h3>Remove</h3>
+          <p>Ship the smallest elegant intervention that makes the faff feel faintly absurd in retrospect.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="product-section" id="peacemaker" aria-labelledby="product-title">
+      <div class="product-copy">
+        <p class="section-kicker">First instrument</p>
+        <h2 id="product-title">The Peacemaker</h2>
+        <p>
+          Diplomatic bill splitting for shared plates, long dinners, and the precise moment
+          arithmetic threatens the mood.
+        </p>
+        <p>
+          The Peacemaker turns the end-of-meal calculation into a calm settlement: clear, fair, and
+          socially graceful enough to keep the evening intact.
+        </p>
+        <a class="button-link" href="https://thepeacemaker.app">
+          View The Peacemaker
+          <span aria-hidden="true">-></span>
+        </a>
+      </div>
+
+      <div class="product-document" aria-label="The Peacemaker product summary">
+        <div class="document-rule"></div>
+        <p class="document-label">Treaty extract</p>
+        <dl>
+          <div>
+            <dt>Problem</dt>
+            <dd>Shared bills derail good rooms.</dd>
+          </div>
+          <div>
+            <dt>Principle</dt>
+            <dd>Fairness should feel final, not fussy.</dd>
+          </div>
+          <div>
+            <dt>Outcome</dt>
+            <dd>Everyone knows what they owe, and nobody has to become the spreadsheet.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="official-section" aria-labelledby="official-title">
+      <div>
+        <p class="section-kicker">The particulars</p>
+        <h2 id="official-title">Small by design. Serious about the result.</h2>
+      </div>
+      <p>
+        Faff:Naught exists to build compact products with outsized relief. The studio is starting
+        with The Peacemaker, then continuing wherever daily life has acquired unnecessary ceremony.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Faff:Naught is the trading name of Faff Naught Ltd.</p>
+    <div class="footer-links">
+      <a href="mailto:hello@faffnaught.com">hello@faffnaught.com</a>
+      <a href="https://thepeacemaker.app">The Peacemaker</a>
+    </div>
+  </footer>
+  <script src="./theme.js"></script>
+</body>
+
+</html>
