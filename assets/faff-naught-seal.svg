@@ -1,0 +1,17 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Faff:Naught seal</title>
+  <desc id="desc">A refined circular studio seal with crossed rules and a zero mark.</desc>
+  <rect width="420" height="420" rx="210" fill="#F7E7CE"/>
+  <circle cx="210" cy="210" r="170" stroke="#003D4D" stroke-width="4"/>
+  <circle cx="210" cy="210" r="128" stroke="#B5944F" stroke-width="2"/>
+  <path d="M122 210H298" stroke="#003D4D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M210 122V298" stroke="#003D4D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M145 145L275 275" stroke="#B5944F" stroke-width="5" stroke-linecap="round"/>
+  <path d="M275 145L145 275" stroke="#B5944F" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="210" cy="210" r="52" fill="#003D4D"/>
+  <circle cx="210" cy="210" r="28" fill="#F7E7CE"/>
+  <path d="M110 102C132 78 166 62 210 62C254 62 288 78 310 102" stroke="#003D4D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M110 318C132 342 166 358 210 358C254 358 288 342 310 318" stroke="#003D4D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M92 232C84 225 80 217 80 210C80 203 84 195 92 188" stroke="#B5944F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M328 232C336 225 340 217 340 210C340 203 336 195 328 188" stroke="#B5944F" stroke-width="4" stroke-linecap="round"/>
+</svg>
