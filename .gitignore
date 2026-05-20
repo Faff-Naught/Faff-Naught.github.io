@@ -1,0 +1,26 @@
+# Codex and agent workspaces
+.codex/
+.superpowers/
+.agents/
+AGENTS.md
+CODEX*
+codex*
+
+# Brainstorming, plans, specs, and archived design drafts
+docs/superpowers/
+assets/archive/
+assets/*exploration*
+
+# Local preview and setup files
+.preview-*
+preview-server.cjs
+setup*
+*.setup.*
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+dist/
+build/

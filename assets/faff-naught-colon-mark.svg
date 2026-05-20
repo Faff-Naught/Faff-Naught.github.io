@@ -1,0 +1,11 @@
+﻿<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Faff:Naught colon mark">
+  <title>Faff:Naught colon mark</title>
+  <desc>Standalone Faff:Naught colon mark derived from the wordmark, using two colon dots and a subtle proofing rule inside a square stamp frame.</desc>
+  <rect x="18" y="18" width="124" height="124" fill="none" stroke="#003D4D" stroke-width="6"/>
+  <g aria-hidden="true">
+    <circle cx="72" cy="57" r="12" fill="#B5944F"/>
+    <circle cx="72" cy="103" r="12" fill="#B5944F"/>
+    <path d="M98 47V113" stroke="#003D4D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M91 80H105" stroke="#003D4D" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
