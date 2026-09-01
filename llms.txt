@@ -1,0 +1,25 @@
+# Faff:Naught
+
+> Faff:Naught is a small software studio focused on removing everyday friction, beginning with The Peacemaker.
+
+Faff:Naught is the trading name of Faff Naught Ltd.
+
+The Peacemaker is an Android restaurant bill-splitting app for shared plates and group dining. It supports receipt scanning, editable items, shared-item allocation, tax and tip splitting, and rounding.
+
+## Company
+
+- [Faff:Naught](https://faffnaught.com/)
+
+## The Peacemaker
+
+- [Product page](https://faffnaught.com/the-peacemaker/)
+- [Google Play](https://play.google.com/store/apps/details?id=com.faffnaught.thepeacemaker)
+
+## Support and privacy
+
+- [Support](https://faffnaught.com/the-peacemaker/support.html)
+- [Privacy](https://faffnaught.com/the-peacemaker/privacy.html)
+
+## Optional
+
+- [Account deletion](https://faffnaught.com/the-peacemaker/delete-account.html)
